@@ -52,9 +52,14 @@ Note: you may get an initial frozen solve warning, but wait it out and packages 
 
 Mac Instructions: Install TensorFlow in this environment.
 
-Mac users should install Tensorflow 2.7.0: conda install -c conda-forge tensorflow=2.7.0
-Windows users should install Tensorflow 2.3.0: conda install -c conda-forge tensorflow=2.3.0
-
+Mac users should install Tensorflow 2.7.0: 
+```bash
+conda install -c conda-forge tensorflow=2.7.0
+```
+Windows users should install Tensorflow 2.3.0: 
+```bash
+conda install -c conda-forge tensorflow=2.3.0
+```
 Install some more packages that we'll need in the TensorFlow Lecture.
 ```bash
 conda install scikit-learn=0.24.1 nltk
