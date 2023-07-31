@@ -1,17 +1,18 @@
 # Spam Email Detection Machine Learning Project
-
+[Summary](#Summary) &nbsp; &nbsp; [Data](#Data) &nbsp; &nbsp;  [Environment-Setup](#Environment-Setup) &nbsp; &nbsp;
+## Summary
 This repository contains the code for a machine learning project that aims to detect spam emails using various techniques. The project consists of four Jupyter notebooks, and they should be run in the following order:
 
 1. **EDA.ipynb**: This notebook performs Exploratory Data Analysis (EDA) on the dataset to gain insights and understand the data distribution.
-
 2. **Feature_Engineering.ipynb**: In this notebook, extensive feature engineering techniques are applied to generate around 300 features from the original dataset. The notebook exports processed data into CSV files that will be used in the subsequent notebooks.
-
 3. **Baseline_Model.ipynb**: The Baseline_Model notebook builds a baseline machine learning model for spam email detection. It requires the **Ensemble environment** to be installed, as it utilizes ensemble methods for the classification task.
-
 4. **Neural_Networks.ipynb**: The Neural_Networks notebook focuses on building and training neural network models for spam email detection. It requires the **Deep Learning environment** to be installed for running the models.
+5. 
+## Data
+The original source of the dataset is from the Programming Languages Group's website of University of Waterloo. The dataset contains 75,419 emails delivered to a particular server between April 2007 and Jul 2007. [Click here](https://plg.uwaterloo.ca/~gvcormac/treccorpus07/).
+The data is available in csv from [here](https://www.kaggle.com/datasets/imdeepmind/preprocessed-trec-2007-public-corpus-dataset).
 
-## Environment Setup
-
+## Environment-Setup
 To run the notebooks, you need to set up two different environments, one for the baseline model and the other for the neural networks. Here's how you can create the environments:
 
 ### Baseline Model Environment
